@@ -42,10 +42,10 @@ public class Dni {
         boolean sw=true;
         int numero;
         numero=Integer.parseInt(numeroDni);
-        if (letraDni.compareTo(codigo[numero%23])) {
+        if((letraDni.compareTo(codigo[numero%23])==0)) {
             
         }
-        
+        ;
        
        
         if(!Character.isDigit(letraDni.charAt(0))){
